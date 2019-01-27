@@ -1,6 +1,6 @@
 import gym
 
-class BaseEnv(gym.Env): # Modify here
+class BaseEnv(gym.Env): # Modify new class name here
     """
     A template to implement custom OpenAI Gym environments
     
@@ -9,7 +9,7 @@ class BaseEnv(gym.Env): # Modify here
     metadata = {'render.modes': ['human']}
     def __init__(self):
         self.__version__ = "0.0.1"
-        print("Initialized BaseEnv") # Modify here
+        print("Initialized BaseEnv") # Modify new class name here
         # Modify the observation space, low, high and shape values according to your custom environment's needs
         # self.observation_space = gym.spaces.Box(low=0.0, high=1.0, shape=(3,))
         # Modify the action space, and dimension according to your custom environment's needs
