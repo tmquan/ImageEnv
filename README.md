@@ -46,7 +46,7 @@ The content of `CustomEnv/envs/BaseEnv.py` is
 ```python
 import gym
 
-class BaseEnv(gym.Env): # Modify here
+class BaseEnv(gym.Env): # Modify new class name here
     """
     A template to implement custom OpenAI Gym environments
     
