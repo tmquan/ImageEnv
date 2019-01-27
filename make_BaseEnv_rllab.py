@@ -56,5 +56,4 @@ class BaseEnv(Env):
         pass
         
 if __name__ == '__main__':
-    # env = gym.make("BaseEnv-v0")
     env = BaseEnv()
