@@ -11,7 +11,7 @@ This repository collects 2 ways of customize the environment for Reinsforcement 
 - [x] BaseEnv
 - [ ] PointEnv
 - [ ] ImageEnv
-- [ ] 
+- [ ] ...
 
 ----------
 A common approach is to manually register the environment class that was inherited from `gym.Env`
