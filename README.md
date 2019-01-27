@@ -1,5 +1,5 @@
 
-## Customize Base Processing Environment for Reinforcement Learning
+## Customize Image Processing Environment for Reinforcement Learning
 
 This repository collects several ways of customize the environment for Reinsforcement Learning study. 
 
