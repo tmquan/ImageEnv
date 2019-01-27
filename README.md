@@ -1,12 +1,7 @@
 
+## Customize Base Processing Environment for Reinforcement Learning
 
-## Basic markdown syntax can be found here 
-[https://guides.github.com/features/mastering-markdown/]()
-
-# Customize Base Processing Environment for Reinforcement Learning
-
-
-This repository collects 2 ways of customize the environment for Reinsforcement Learning study. 
+This repository collects several ways of customize the environment for Reinsforcement Learning study. 
 
 - [x] BaseEnv
 - [ ] PointEnv
@@ -189,3 +184,6 @@ It should print this line
 ```bash
 Initialized BaseEnv
 ```
+
+## Basic markdown syntax can be found here 
+[https://guides.github.com/features/mastering-markdown/]()
