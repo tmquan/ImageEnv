@@ -6,7 +6,7 @@ This repository collects several ways of customize the environment for Reinsforc
 - [x] BaseEnv
 - [ ] PointEnv
 - [ ] ImageEnv
-- [ ] ...
+- [ ] More to come
 
 ----------
 A common approach is to manually register the environment class that was inherited from `gym.Env`
