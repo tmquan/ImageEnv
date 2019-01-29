@@ -12,7 +12,7 @@ from stable_baselines import * # A2C, ACER, ACKTR, DQN, DDPG, PPO1, PPO2, TRPO
 class PointEnvBox(gym.Env):
     @property
     def observation_space(self):
-        return gym.spaces.Box(low=-np.inf, high=np.inf, shape=(2,), dtype=np.float32)
+        return gym.spaces.Box(low=0, high=np.inf, shape=(2,), dtype=np.float32)
 
     @property
     def action_space(self):
@@ -25,7 +25,7 @@ class PointEnvBox(gym.Env):
         self.reset()
     
     def reset(self):
-        self.state = np.random.uniform(-1, 1, size=(2,))
+        self.state = np.random.uniform(0, 1, size=(2,))
         observation = np.copy(self.state)
         return observation
 
